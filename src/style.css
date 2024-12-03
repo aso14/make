@@ -1,0 +1,30 @@
+body {
+  background-color: #f0f4f9;
+  font-family: 'GeneralSans-Regular';
+}
+
+/* Exemple d'utilisation des styles de polices */
+.title {
+  font-family: 'GeneralSans-Regular', sans-serif; /* Police régulière */
+  font-size: 2rem;
+}
+
+.light-text {
+  font-family: 'GeneralSans-Light', sans-serif; /* Police légère */
+  font-weight: 300; /* Peut être omis, car déjà dans @font-face */
+}
+
+.medium-text {
+  font-family: 'GeneralSans-Medium', sans-serif; /* Police en gras */
+  font-weight: 600;
+}
+
+.bold-text {
+  font-family: 'GeneralSans-Bold', sans-serif; /* Police en gras */
+  font-weight: 700;
+}
+
+.italic-text {
+  font-family: 'GeneralSans-Italic', sans-serif; /* Italique */
+  font-style: italic; /* Peut être omis */
+}
